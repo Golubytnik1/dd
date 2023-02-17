@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Book_Full</title>
+</head>
+<body>
+
+<center>
+    <h1>Название книги:<br>{{book_id.title}}</h1>
+    <p>Описание книги:<br>{{book_id.description}}</p>
+    <p>Количество страниц:<br>{{book_id.quantity}}</p>
+    <img src="{{book_id.image.url}}" alt="" width="300" height="400">
+    <p>Жанр:<br>{{book_id.genre}}</p>
+    <a href="{{book_id.link}}">Ссылка на покупку книги --></a>
+    <p>Цена:<br>{{book_id.price}} сом</p>
+    <p>Дата публикации: {{book_id.created_dates}}</p>
+    <p>Дата обновления: {{book_id.updated_dates}}</p>
+</center>
+
+</body>
+</html>
